@@ -11,5 +11,106 @@
         <img src="./img/1076928.png" alt="Logo de la Pagina - Huella de can" width="70px" />
         <figcaption>Dog World</figcaption>
     </header>
+
+    <main>
+        <article>
+
+            <figure>
+                <img src="./img/Portada_Perros.png" alt="Fotos de perros para adoptar" width="500px"/>
+            </figure>
+
+            <h1>No compres, adopta a uno de estos canes!</h1>
+            <h2>🐶 Porque ellos merecen ser felices🐾</h2>
+
+            <p>
+                Actualmente, vemos día a día cientos de perros abandonados en las calles expuestos, muchas veces,
+                a sufrir desde enfermedades, como la desnutricion, hasta incluso el maltrato de personas. Es por 
+                esta razón que como voluntariados nos encargamos de recoger a estos canes de las calles y a incentivar
+                a la población a adoptarlos con el fin de que reciban un mejor estilo de vida y, sobre todo, que sean
+                felices! 
+            </p>
+
+        </article>
+
+        <section>
+            <h3>Motivos para adoptar una mascota 🐶</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nª</th>
+                        <th>Motivos</th>
+                        <th>Explicación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Salvas una vida</td>
+                        <td>
+                            <ul>
+                                <li>Evitas que mueran</li>
+                                <li>Evitas que padezcan de enfermedades</li>
+                                <li>Evitas que sufran de abusos.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Te distraen</td>
+                        <td>
+                            <ul>
+                                <li>Te relejarás al salir a pasear o corren con tu mascota.</li>
+                                <li>Te desestresarás al acariciar a tu can. </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>No te sentirás solo</td>
+                        <td>
+                            <ul>
+                                <li>Son de gran compañía si vives solo o con pocas personas</li>
+                                <li>Si te sientes triste, ellos estarán para ti en los momentos difíciles.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>¿Quieres unirte a nuestro voluntariado?</h3>
+            <p>Regístrate en esta seccion 👇 y nos pondremos en contacto contigo 🙋‍♂️</p>
+            <form action="/">
+               <hr />
+               <label for="nombre">Nombre completo</label>
+               <input type="text" id ="nombre" placeholder ="Nombre" name="nombre" required/>
+               <hr />
+               <label for="apellido">Apellido completo</label>
+               <input type="text" id="apellido" placeholder ="Apellido" name="apellido"required/>
+               <hr />
+               <label for="email">Email</label>
+               <input type="text" id ="email" placeholder ="Email" name="email" required/>
+               <hr />
+               <label for="celular">Celular</label>
+               <input type="number" id ="celular" placeholder ="Celular" name="celular" min="900000000" max="999999999" required/>
+               <hr />
+               <p>Sexo</p>
+               <input type="radio" name="sexo" id="femenino" value="femenino">
+               <label for="femenino">Femenino</label>
+               <input type="radio" name="sexo" id="masculino" value="masculino">
+               <label for="masculino">Masculino</label>
+               <input type="radio" name="sexo" id="otros" value="otros">
+               <label for="otros">No especifico</label>
+               <hr/>
+               <label for="file">
+                  <p>Subir CV</p>
+                </label>
+               <input type="file" id="file" name="file" required>
+               <hr/>
+               <input type="submit" value="Registrar">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
